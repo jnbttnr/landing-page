@@ -1,0 +1,164 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, 'sans serif';
+}
+
+.header, .hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    padding: 8px 10vw;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero img {
+    width: 400px;
+    margin: 52px 0;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+a, .hero-sub {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-style: hidden;
+    padding: 8px 32px;
+    font-size: 16px;
+    margin: 12px 0 12px;
+    width: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 52px;
+}
+
+.info-header {
+    margin: 24px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    gap: 52px;
+}
+
+.tile-subtext {
+    width: 150px;
+    align-self: center;
+    text-align: center;
+    color: #1F2937;
+    padding-top: 8px;
+}
+
+.tile img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+}
+.testimonials {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 12vh 18vw 0;
+}
+
+.quote {
+    text-align: right;
+    padding: 8px 20vw 12vh 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action {
+    background-color: #3882F6;
+    align-self: stretch;
+    display: flex;
+    margin: 56px 10vw;
+    justify-content: space-between;
+    border-radius: 5px;
+    gap: 12px;
+}
+
+.action-text {
+    align-self: center;
+    margin: 8vh 0 8vh 8vw;
+}
+
+.action button {
+    border: 2px solid #F9FAF8;
+    margin-right: 8vw;
+    align-self: center;
+    max-width: 150px;
+    color: #F9FAF8;
+}
+
+.action-main {
+    font-weight: bold;
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+.action-sub {
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    align-self: stretch;
+    justify-content: center;
+    padding: 28px 0;
+}
